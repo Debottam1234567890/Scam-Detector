@@ -18,7 +18,6 @@ An intelligent Python-based tool that identifies scam messages using a custom ru
   - Official appearance fakes
   - Unsecured sources
   - Threats or blackmail
-- 🔍 Shows factor scores for each message
 - 📊 Machine Learning classifier (Random Forest)
 - 📈 Accuracy report with precision, recall, and F1-score
 
