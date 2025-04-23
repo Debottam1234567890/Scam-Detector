@@ -21,7 +21,6 @@ An intelligent Python-based tool that identifies scam messages using a custom ru
 - 🔍 Shows factor scores for each message
 - 📊 Machine Learning classifier (Random Forest)
 - 📈 Accuracy report with precision, recall, and F1-score
-- 📥 Accepts user input and explains the decision
 
 ## 📁 Dataset Structure
 
@@ -43,7 +42,7 @@ cd scam_identifier_project
 
 ### 2. Set up your Python environment
 
-Make sure you're using Python 3.7 or higher.
+Make sure you're using Python 3.12 or higher.
 
 ```bash
 python3 -m venv venv
