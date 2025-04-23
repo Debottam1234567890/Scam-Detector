@@ -71,12 +71,8 @@ You’ll see a classification report and a prompt for entering messages.
 Congratulations! You've won $5,000! Claim now or lose it forever.
 
 🤖 Prediction: SCAM
-📌 Reason:
-- High urgency (0.95)
-- Money request (1.0)
-- Reward offer (1.0)
-- Pressure to act (0.9)
-```
+
+💬 Enter a message to check (or 'quit' to exit):
 
 ## 🧠 How It Works
 
