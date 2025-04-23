@@ -64,7 +64,7 @@ python3 scam_detector.py
 
 You’ll see a classification report and a prompt for entering messages.
 
-### ✍️ Sample Usage
+## ✍️ Sample Usage
 
 ```plaintext
 💬 Enter a message to check (or 'quit' to exit):
@@ -73,6 +73,7 @@ Congratulations! You've won $5,000! Claim now or lose it forever.
 🤖 Prediction: SCAM
 
 💬 Enter a message to check (or 'quit' to exit):
+```
 
 ## 🧠 How It Works
 
