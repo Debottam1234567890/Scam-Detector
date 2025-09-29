@@ -25,7 +25,7 @@ An intelligent Python-based tool that identifies scam messages using a custom ru
 
 Your dataset file `labeled_dataset.csv` should look like this:
 
-```csv
+```
 message,label,urgency,money_request,official_appearance,reward_offer,celebrity_reference,grammar_issues,unusual_contact_method,pressure_to_act,suspicious_link,upfront_payment
 "Message text",scam,0.9,1.0,0.7,0.6,0.0,0.4,0.2,0.9,0.0,0.5
 ```
@@ -43,7 +43,7 @@ cd scam_detector
 
 Make sure you're using Python 3.12 or higher.
 
-```bash
+```
 python3 -m venv venv
 source venv/bin/activate  # On Mac/Linux
 venv\Scripts\activate     # On Windows
@@ -52,13 +52,13 @@ pip install -r requirements.txt
 
 If there's no `requirements.txt`, install dependencies manually:
 
-```bash
+```
 pip install scikit-learn pandas
 ```
 
 ### 3. Run the program
 
-```bash
+```
 python3 scam_detector.py
 ```
 
@@ -66,7 +66,7 @@ You will see a classification report and a prompt for entering messages.
 
 ## Sample Usage (CLI)
 
-```plaintext
+```
 Enter a message to check (or 'quit' to exit):
 Congratulations! You've won $5,000! Claim now or lose it forever.
 
@@ -76,7 +76,7 @@ Enter a message to check (or 'quit' to exit):
 ```
 
 ## Sample Usage (GUI)
-```bash
+```
 python3 endpoints.py
 ```
 
