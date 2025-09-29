@@ -1,11 +1,11 @@
-# 🛡️ AI-Powered Scam Message Detector
+# AI-Powered Scam Message Detector
 
 An intelligent Python-based tool that identifies scam messages using a custom rule-based and machine learning model. Designed to analyze message patterns, assign scores to multiple scam indicators, and classify input as **SCAM** or **REAL** — all while explaining **why**.
 
-## 📦 Features
+## Features
 
-- ✅ Classifies input messages as **SCAM** or **REAL**
-- 🧠 Uses a custom-built feature extractor for:
+- Classifies input messages as **SCAM** or **REAL**
+- Uses a custom-built feature extractor for:
   - Money requests
   - Urgency
   - Grammar issues
@@ -18,10 +18,10 @@ An intelligent Python-based tool that identifies scam messages using a custom ru
   - Official appearance fakes
   - Unsecured sources
   - Threats or blackmail
-- 📊 Machine Learning classifier (Random Forest)
-- 📈 Accuracy report with precision, recall, and F1-score
+- Machine Learning classifier (Random Forest)
+- Accuracy report with precision, recall, and F1-score
 
-## 📁 Dataset Structure
+## Dataset Structure
 
 Your dataset file `labeled_dataset.csv` should look like this:
 
@@ -30,13 +30,13 @@ message,label,urgency,money_request,official_appearance,reward_offer,celebrity_r
 "Message text",scam,0.9,1.0,0.7,0.6,0.0,0.4,0.2,0.9,0.0,0.5
 ```
 
-## 🛠️ How to Run
+## How to Run
 
 ### 1. Clone this repository
 
 ```bash
-git clone https://github.com/Debottam1234567890/scam_identifier_project.git
-cd scam_identifier_project
+git clone https://github.com/Debottam1234567890/Scam_Detector.git
+cd scam_detector
 ```
 
 ### 2. Set up your Python environment
@@ -62,28 +62,35 @@ pip install scikit-learn pandas
 python3 scam_detector.py
 ```
 
-You’ll see a classification report and a prompt for entering messages.
+You will see a classification report and a prompt for entering messages.
 
-## ✍️ Sample Usage
+## Sample Usage (CLI)
 
 ```plaintext
-💬 Enter a message to check (or 'quit' to exit):
+Enter a message to check (or 'quit' to exit):
 Congratulations! You've won $5,000! Claim now or lose it forever.
 
-🤖 Prediction: SCAM
+Prediction: SCAM
 
-💬 Enter a message to check (or 'quit' to exit):
+Enter a message to check (or 'quit' to exit):
 ```
 
-## 🧠 How It Works
+## Sample Usage (GUI)
+```bash
+python3 endpoints.py
+```
+
+You will see a website with the same scam detector
+
+## How It Works
 
 Each message is processed by a feature extraction system that searches for 100+ scammy keywords across 12 different psychological and linguistic factors. These values are then used by a Random Forest model to classify the message.
 
-## 🔓 License
+## License
 
 This project is licensed under the MIT License — feel free to use, modify, and share.
 
-## 👤 Author
+## Author
 
 Debottam Ghosh  
 GitHub: [@Debottam1234567890](https://github.com/Debottam1234567890)
